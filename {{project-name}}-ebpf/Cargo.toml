@@ -11,6 +11,8 @@ aya-log-ebpf = "0.1.0"
 [[bin]]
 name = "{{ project-name }}"
 path = "src/main.rs"
+test = false
+bench = false
 
 [profile.dev]
 opt-level = 3
